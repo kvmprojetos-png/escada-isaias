@@ -1,5 +1,5 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Escada metálica em L da piscina ao alto do muro: 3D, guarda-corpo em vidro, cálculo, detalhes e material. KMZERO Projetos, WhatsApp (28) 99925-8172.">
+<meta name="description" content="Escada metálica do Isaías: lance de 4 degraus, leque e lance até a laje metálica. 3D, guarda-corpo em vidro, cálculo e detalhes. KMZERO Projetos, WhatsApp (28) 99925-8172.">
 <meta property="og:title" content="Escada do Isaías · KMZERO Projetos"><meta property="og:description" content="Abra no celular: 3D da escada, guarda-corpo em vidro, cálculo e detalhes.">
 <meta property="og:image" content="https://kvmprojetos-png.github.io/escada-isaias/og.jpg"><meta property="og:url" content="https://kvmprojetos-png.github.io/escada-isaias/"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image">
 <meta name="robots" content="noindex">
@@ -195,11 +195,11 @@ footer{font:12px var(--f-mono);color:var(--muted);border-top:1px solid var(--lin
   </div>
   <div class="hero-head">
     <div>
-      <div class="kicker">Escada metálica · área da piscina</div>
+      <div class="kicker">Escada metálica · lance, leque e laje</div>
       <h1>Escada do Isaías</h1>
-      <p class="lead">Escada em <b>L com patamar</b>, da piscina até o alto do muro. É toda em aço, com <b>longarina de 25 cm que esconde o degrau</b>, encostada nas duas paredes do canto e chega numa <b>plataforma metálica</b> com guarda-corpo em volta. Guarda-corpo em <b>vidro com corrimão inox</b> e bloco em leque no pé.</p>
+      <p class="lead">Toda em aço, olhando para o muro de divisa: um <b>lance inicial de 4 degraus</b>, a virada em <b>leque</b> junto ao muro e um <b>lance direto de 10 degraus</b> até a <b>laje metálica</b> no canto, a +318. A <b>longarina de 25 cm esconde o degrau</b>, e o guarda-corpo é em <b>vidro com corrimão inox</b>.</p>
     </div>
-    <div class="hero-meta">Cliente <b>Isaías</b><br>Estudo preliminar <b>rev. 3</b><br><b>14/10/2026</b></div>
+    <div class="hero-meta">Cliente <b>Isaías</b><br>Estudo preliminar <b>rev. 4</b><br><b>14/10/2026</b></div>
   </div>
   <div class="stage">
     <canvas id="three" aria-label="Modelo 3D da escada. Arraste para girar."></canvas>
@@ -231,7 +231,7 @@ footer{font:12px var(--f-mono);color:var(--muted);border-top:1px solid var(--lin
   <h2>Passa nos cálculos?</h2>
   <div class="verdict">
     <div class="stampok">Passa<small>com 2 ajustes</small></div>
-    <p>A estrutura aguenta com muita folga: a longarina U 250 trabalha a <b>7%</b> da capacidade, o pilar a <b>3%</b>, e a escada vibra a <b>34 Hz</b>, então não balança quando alguém desce correndo. Dois itens não passavam e já estão corrigidos nesta revisão: <b>o patamar ganhou 3 nervuras</b> por baixo da chapa e <b>o guarda-corpo ganhou montantes de barra chata de aço</b>, porque o tubo de inox comum, igual ao da varanda, não segura o empurrão de norma.</p>
+    <p>A estrutura aguenta com muita folga: a longarina U 250 trabalha a <b>7%</b> da capacidade, o pilar a <b>3%</b>, e a escada vibra a <b>34 Hz</b>, então não balança quando alguém desce correndo. Dois itens não passavam e já estão corrigidos nesta revisão: <b>o leque e a laje de chegada ganharam nervuras</b> por baixo da chapa e <b>o guarda-corpo ganhou montantes de barra chata de aço</b>, porque o tubo de inox comum, igual ao da varanda, não segura o empurrão de norma.</p>
   </div>
   <div class="tblwrap"><table class="calc" id="calc"></table></div>
   <p class="hint">Cargas da NBR 6120:2019: escada residencial 2,5 kN/m², granito 28 kN/m³. Combinação 1,4 × permanente + 1,5 × uso. Aço com fy = 250 MPa (inox 205 MPa), γ = 1,10, perfis formados a frio pela NBR 14762 e tubos pela NBR 8800. Guarda-corpo verificado com 1,0 kN/m no topo, a 1,10 m, com montantes a cada 1,0 m. O vidro é dimensionado pelo fornecedor (NBR 7199 e NBR 14718). Os números vêm do arquivo <span class="num">calculo_escada.py</span>.</p>
@@ -256,7 +256,7 @@ footer{font:12px var(--f-mono);color:var(--muted);border-top:1px solid var(--lin
         <li>Vale conferir o vão do guarda-corpo da varanda: com tubos mais espaçados, criança passa.</li>
       </ul></div>
   </div>
-  <p class="hint">O guarda-corpo vai no lado livre dos dois lances e em volta da plataforma de chegada. Do lado das paredes vai um corrimão de inox a 0,92 m. No 3D, os botões Vidro e Tubos inox trocam entre as duas opções.</p>
+  <p class="hint">O guarda-corpo vai dos dois lados do lance inicial, por fora do leque, no lado livre do lance junto ao muro e na frente da laje de chegada. No muro vai um corrimão de inox a 0,92 m. No 3D, os botões Vidro e Tubos inox trocam entre as duas opções.</p>
 </section>
 
 <section>
@@ -283,23 +283,23 @@ footer{font:12px var(--f-mono);color:var(--muted);border-top:1px solid var(--lin
   <div class="study">
     <div class="panel">
       <div class="seg" role="group" aria-label="Tipo de virada">
-        <button id="optLand" aria-pressed="true">Patamar</button>
-        <button id="optFan" aria-pressed="false">Leque no canto</button>
+        <button id="optLand" aria-pressed="false">Patamar</button>
+        <button id="optFan" aria-pressed="true">Leque</button>
       </div>
       <div class="ctl"><label for="inH">Altura a vencer <span class="num" id="vH"></span></label><input id="inH" type="range" min="280" max="360" step="1" value="318"></div>
       <div class="ctl"><label for="inR">Nº de espelhos <span class="num" id="vR"></span></label><input id="inR" type="range" min="16" max="20" step="1" value="18"></div>
       <div class="ctl"><label for="inP">Pisada <span class="num" id="vP"></span></label><input id="inP" type="range" min="25" max="30" step="1" value="25"></div>
       <div class="ctl"><label for="inW">Largura total (face a face das longarinas) <span class="num" id="vW"></span></label><input id="inW" type="range" min="80" max="120" step="5" value="90"></div>
-      <div class="ctl"><label for="inA">Patamar + lance 2, ao longo do muro <span class="num" id="vA"></span></label><input id="inA" type="range" min="200" max="320" step="5" value="250"></div>
-      <label class="tog"><input type="checkbox" id="inFan" checked> Bloco de partida em leque (degraus 1 e 2)</label>
+      <div class="ctl"><label for="inA">Leque + lance até a laje, junto ao muro <span class="num" id="vA"></span></label><input id="inA" type="range" min="250" max="420" step="5" value="340"></div>
+      <label class="tog"><input type="checkbox" id="inFan"> Bloco de concreto nos 2 primeiros degraus</label>
       <h3>Chegada</h3>
       <input id="inG" type="hidden" value="0"><input id="inHB" type="hidden" value="999"><input id="inBP" type="hidden" value="0">
-      <div class="ctl"><label for="inLP">Plataforma de chegada <span class="num" id="vLP"></span></label><input id="inLP" type="range" min="80" max="200" step="10" value="100"></div>
+      <div class="ctl"><label for="inLP">Laje de chegada, junto ao muro <span class="num" id="vLP"></span></label><input id="inLP" type="range" min="80" max="200" step="10" value="100"></div>
       <h3>Longarina</h3>
       <div class="ctl"><label for="inD">Altura do perfil U <span class="num" id="vD"></span></label><input id="inD" type="range" min="15" max="30" step="0.5" value="25"></div>
       <div class="ctl"><label for="inM">Folga acima da quina <span class="num" id="vM"></span></label><input id="inM" type="range" min="1" max="6" step="0.5" value="3"></div>
       <div class="ctl"><label for="inT">Espessura do degrau <span class="num" id="vT"></span></label><input id="inT" type="range" min="4" max="10" step="0.5" value="7"></div>
-      <p class="hint">A espessura do degrau é o granito (20 mm) mais a cola (15), a chapa (3) e a cantoneira (32): 70 mm no total. O 3D lá em cima acompanha os números daqui.</p>
+      <p class="hint">A espessura do degrau é o granito (20 mm) mais a cola (15), a chapa (3) e a cantoneira (32): 70 mm no total. Com leque, o lance junto ao muro fica com 10 degraus de 25 = 250 cm. O 3D lá em cima acompanha os números daqui.</p>
     </div>
     <div class="views">
       <div class="sheet"><div class="bar"><h3>Planta</h3><span>cotas em cm · aço em azul</span></div><div class="draw" id="plan"></div></div>
@@ -321,11 +321,11 @@ footer{font:12px var(--f-mono);color:var(--muted);border-top:1px solid var(--lin
       <li><b>Longarinas:</b> U em chapa dobrada <span class="num">250 × 50 × 6,3 mm</span> (#1/4"), ou U laminado de 10". São duas por lance.</li>
       <li><b>Apoio do degrau:</b> cantoneira <span class="num">L 1¼" × 3/16"</span> soldada na alma, com filete de 4 mm.</li>
       <li><b>Degrau:</b> chapa <span class="num">#1/8"</span> dobrada (espelho, pisada e uma dobra de 20 mm atrás), com granito de 20 mm colado.</li>
-      <li><b>Patamar:</b> quadro de U 250 chumbado nas duas paredes e um pilar de tubo <span class="num">100 × 100 × 4,75</span> no canto livre. A chapa leva <b>3 nervuras de L 1¼"</b> a cada 22 cm, porque sem elas afunda 19 mm.</li>
+      <li><b>Leque:</b> 3 degraus em cunha, de chapa dobrada com granito, sobre um quadro de U 250 chumbado no muro e apoiado em <b>dois pilares</b> de tubo <span class="num">100 × 100 × 4,75</span>. As chapas levam nervuras de L 1¼", porque chapa lisa de 3 mm nesse vão afunda.</li>
     </ul>
     <ul class="spec">
-      <li><b>Pé da longarina:</b> chapa de topo de <span class="num">200 × 250 × 9,5</span> com 4 chumbadores químicos de 1/2" no bloco de partida. Reação de cálculo: 3,5 kN por longarina.</li>
-      <li><b>Plataforma de chegada:</b> metálica, com o mesmo quadro de U 250, chapa, nervuras e granito do patamar. É chumbada no topo do muro e apoiada num pilar 100 × 100 no canto livre, com guarda-corpo nos lados abertos.</li>
+      <li><b>Pé da longarina:</b> chapa de base de <span class="num">200 × 250 × 9,5</span> com 4 chumbadores químicos de 1/2" no piso da piscina. Reação de cálculo: 3,5 kN por longarina.</li>
+      <li><b>Laje de chegada:</b> metálica, no canto do muro com a parede azulejada, a +318. Leva quadro de U 250, chapa com nervuras e granito, é chumbada no muro e na parede e apoiada num pilar 100 × 100 no canto livre, com guarda-corpo na frente.</li>
       <li><b>Guarda-corpo:</b> montante em barra chata <span class="num">2½" × ½"</span> parafusado na face da longarina (2 parafusos de 1/2"), a cada 1,0 m.</li>
       <li><b>Pintura:</b> galvanização a fogo, ou jato com primer epóxi rico em zinco e PU grafite. Área de piscina tem cloro e umidade.</li>
     </ul>
@@ -357,11 +357,11 @@ footer{font:12px var(--f-mono);color:var(--muted);border-top:1px solid var(--lin
     <h2>Medir na obra</h2>
     <ol class="todo">
       <li><b>Altura exata piso a piso</b>, de piso acabado a piso acabado.</li>
-      <li><b>Comprimento na parede azulejada</b>: o primeiro lance ocupa <span class="num" id="needB"></span> a partir do canto. Conferir a distância até a borda da piscina.</li>
-      <li><b>Topo do muro na chegada</b>: a plataforma fica a <span class="num" id="needA"></span> da parede azulejada. Ver se o muro tem cinta ou pilar para chumbar.</li>
+      <li><b>Espaço até a piscina</b>: o lance inicial avança <span class="num" id="needB"></span> a partir do muro. Conferir a distância até a borda da piscina.</li>
+      <li><b>Comprimento junto ao muro</b>: leque, lance e laje somam <span class="num" id="needA"></span>, medidos da parede azulejada. Ver se o muro tem cinta ou pilar para chumbar.</li>
       <li><b>Paredes do canto</b>: se são de bloco cheio, de concreto ou têm pilar. Em bloco furado, o chumbador muda.</li>
       <li><b>Altura livre</b> de pelo menos 2,10 m sobre cada degrau.</li>
-      <li><b>Pontos de água da ducha</b> no canto azulejado: a ducha muda de lugar ou fica fora da escada.</li>
+      <li><b>Pontos de água da ducha</b> no canto azulejado: ficam embaixo da laje de chegada. Ver se a ducha continua ali.</li>
       <li><b>Prumo e esquadro do canto</b>, para fazer a longarina de parede pela medida real.</li>
     </ol>
   </div>
@@ -372,14 +372,14 @@ footer{font:12px var(--f-mono);color:var(--muted);border-top:1px solid var(--lin
   <div class="cbtns"><a class="cbtn" href="https://wa.me/5528999258172?text=Ol%C3%A1%2C%20vi%20o%20estudo%20da%20Escada%20do%20Isa%C3%ADas" target="_blank" rel="noopener">Chamar no WhatsApp</a><button class="cbtn ghost" id="waCopy" type="button">Copiar número</button></div>
 </section>
 
-<footer>KMZERO Projetos · WhatsApp (28) 99925-8172 · estudo preliminar rev. 3 · croqui, fotos e áudios de 14/10/2026 · confirmar medidas no local antes de fabricar</footer>
+<footer>KMZERO Projetos · WhatsApp (28) 99925-8172 · estudo preliminar rev. 4 · croqui, fotos e áudios de 14/10/2026 · confirmar medidas no local antes de fabricar</footer>
 </div></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
 const $=id=>document.getElementById(id);
 const fmt=(v,d=1)=>(+v).toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});
-const S={type:'land',H:318,R:18,P:25,W:90,A:250,fan:true,D:25,M:3,T:7,G:0,HB:999,BP:0,LP:100,guard:'vidro',night:false};
+const S={type:'fan',H:318,R:18,P:25,W:90,A:340,fan:false,D:25,M:3,T:7,G:0,HB:999,BP:0,LP:100,guard:'vidro',night:false};
 const TH=0.63;
 const CALC=[["Longarina U 250 · flexão", 2.156, 29.782, "kN·m", 7.2, true, "vão horizontal 2.50 m, FLT travada pelos degraus"], ["Longarina U 250 · cortante", 3.449, 203.948, "kN", 1.7, true, ""], ["Longarina U 250 · flecha", 0.44, 8.746, "mm", 5.0, true, "limite L/350"], ["Vibração · 1ª frequência", 34.3, 10.0, "Hz", 29.1, true, "acima de 10 Hz a escada não balança"], ["Degrau chapa #1/8\" em L · carga distribuída", 0.116, 3.795, "kN·m", 3.1, true, ""], ["Degrau · 1,5 kN no meio (pessoa pulando)", 0.5, 3.795, "kN·m", 13.2, true, "verificação extra"], ["Degrau · flecha", 0.043, 2.353, "mm", 1.8, true, ""], ["Patamar · chapa #1/8\" SEM nervura (flecha)", 19.1, 2.5, "mm", 752.4, false, "chapa lisa de 3 mm não aguenta o vão de 0,89 m"], ["Patamar · chapa entre 3 nervuras (flecha)", 0.263, 0.634, "mm", 41.4, true, "nervuras a cada 222 mm"], ["Patamar · nervura L 1¼\"×3/16\" (flexão)", 0.12, 0.263, "kN·m", 45.6, true, ""], ["Patamar · nervura (flecha)", 1.312, 2.535, "mm", 51.7, true, ""], ["Viga do patamar U 250 · flexão", 0.274, 29.782, "kN·m", 0.9, true, ""], ["Pilar tubo 100×100×4,75 · compressão", 9.334, 363.804, "kN", 2.6, true, "altura 1.87 m, esbeltez 48"], ["Plataforma de chegada · viga U 250 (vão 1,0 m)", 0.338, 29.782, "kN·m", 1.1, true, "quadro chumbado no topo do muro"], ["Pilar da plataforma tubo 100×100×4,75", 4.641, 308.986, "kN", 1.5, true, "altura 2.86 m, esbeltez 73"], ["Guarda-corpo · montante tubo inox 2\" × 1,5 (igual varanda)", 1.65, 0.518, "kN·m", 318.3, false, "montante comum de inox não segura o empurrão"], ["Guarda-corpo · montante barra chata 2½\" × ½\" (aço)", 1.65, 1.94, "kN·m", 85.1, true, ""]];
 
@@ -417,11 +417,11 @@ function build(){
   // beiral: faixa x(casa) < BP, ou seja x(escada) < BP - G ; altura livre = HB - piso
   const lim=S.BP-S.G; let head=Infinity, under=0;
   steps.forEach(st=>{const xmin=Math.min(...st.poly.map(p=>p[0])); if(xmin<lim){under++; head=Math.min(head,S.HB-st.z);}});
-  return {h,n1,n2,turn,steps,arr,legB,blondel:2*h+P,alpha,V,zLand,L1,L2,nos1,nos2,top1,top2,sF,sE1,sE2,slope1,slope2,footOverlap,botGap:V-M-h-T,head,under,free1:S.G>0};
+  return {h,n1,n2,turn,steps,arr,legB,blondel:2*h+P,alpha,V,zLand,L1,L2,nos1,nos2,top1,top2,sF,sE1,sE2,slope1,slope2,footOverlap,botGap:V-M-h-T,head,under,free1:true};
 }
 
 function caption(g){
-  const items=[[fmt(g.h),'cm','espelho · '+S.R+' degraus'],[S.P,'cm','pisada'],[S.type==='land'?'+'+fmt(g.zLand,0):'—','cm','patamar'],[fmt(g.botGap*10,0),'mm','sobra do perfil sob o degrau']];
+  const items=[[fmt(g.h),'cm','espelho · '+S.R+' degraus'],[S.P,'cm','pisada'],[S.type==='land'?'+'+fmt(g.zLand,0):g.n1+' + 3 + '+g.n2,S.type==='land'?'cm':'','degraus: lance, leque, lance'],[fmt(g.botGap*10,0),'mm','sobra do perfil sob o degrau']];
   $('cap').innerHTML=items.map(([v,u,k])=>`<div><span class="v">${v} <small>${u}</small></span><span class="k">${k}</span></div>`).join('');
 }
 
@@ -441,15 +441,16 @@ function posts(g){
 
 function plan(g){
   const {W}=S, wt=15, slabD=70, sw=2.2;
-  const G=S.G, maxX=Math.max(g.arr+S.LP+40,W+60), maxY=g.legB+40;
-  const m=48, vb=[-G-wt-m,-wt-m,maxX+G+wt+2*m,maxY+wt+2*m];
+  const G=0, maxX=g.arr+S.LP+wt+20, maxY=Math.max(g.legB+40,W+120);
+  const m=48, vb=[-wt-m-30,-wt-m,maxX+wt+2*m+30,maxY+wt+2*m];
   let s=`<svg viewBox="${vb.join(' ')}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Planta da escada">${DEFS}`;
-  s+=`<rect class="wall" x="${-G-wt}" y="${-wt}" width="${maxX+G+wt}" height="${wt}"/><rect class="wall" x="${-G-wt}" y="0" width="${wt}" height="${maxY}"/>`;
-  s+=`<text class="lbl s" x="${maxX-4}" y="${-wt-5}" text-anchor="end">muro de pedra (topo +${S.H})</text>`;
-  s+=`<text class="lbl s" transform="translate(${-G-wt-6},${maxY-4}) rotate(-90)">parede azulejada</text>`;
+  const xw=g.arr+S.LP;
+  s+=`<rect class="wall" x="${-40}" y="${-wt}" width="${xw+wt+40}" height="${wt}"/><rect class="wall" x="${xw}" y="0" width="${wt}" height="${maxY}"/>`;
+  s+=`<text class="lbl s" x="${-36}" y="${-wt-5}">muro de divisa (pedra), topo +${S.H}</text>`;
+  s+=`<text class="lbl s" transform="translate(${xw+wt+10},${8}) rotate(90)">parede azulejada</text>`;
   if(S.BP>0){const hit=g.under>0&&g.head<210; s+=`<rect x="${-G}" y="0" width="${S.BP}" height="${maxY}" fill="${hit?'var(--bad)':'var(--muted)'}" fill-opacity=".12" stroke="${hit?'var(--bad)':'var(--muted)'}" stroke-dasharray="6 4"/><text class="lbl ${hit?'b':'s'}" transform="translate(${-G+S.BP/2+3},${maxY-30}) rotate(-90)" style="${hit?'fill:var(--bad)':''}">beiral +${S.HB}</text>`;}
   if(G>0){s+=`<path class="dim" d="M${-G},${maxY-8} H0 M${-G},${maxY-13} V${maxY-3} M0,${maxY-13} V${maxY-3}"/><text class="lbl" x="${-G/2}" y="${maxY-12}" text-anchor="middle">${G}</text>`;}
-  s+=`<rect class="t land" x="${g.arr}" y="0" width="${S.LP}" height="${W}"/><text class="lbl b" x="${g.arr+S.LP/2}" y="${W/2-2}" text-anchor="middle">plataforma</text><text class="lbl s" x="${g.arr+S.LP/2}" y="${W/2+10}" text-anchor="middle">metálica +${S.H}</text>`;
+  s+=`<rect class="t land" x="${g.arr}" y="0" width="${S.LP}" height="${W}"/><text class="lbl b" x="${g.arr+S.LP/2}" y="${W/2-2}" text-anchor="middle">laje</text><text class="lbl s" x="${g.arr+S.LP/2}" y="${W/2+10}" text-anchor="middle">metálica +${S.H}</text>`;
   s+=`<rect class="col" x="${g.arr+S.LP-10}" y="${W-10}" width="10" height="10"/>`;
   g.steps.forEach((st,i)=>{
     const cls=st.tag==='land'?'t land':st.tag==='fan'?'t fan':('t'+(i%2?' alt':''));
@@ -463,15 +464,15 @@ function plan(g){
   const y1a=g.legB-(S.fan?g.sF:0);
   s+=`<rect class="strp" x="${W-sw}" y="${W}" width="${sw}" height="${y1a-W}"/><rect class="strp" x="0" y="${W}" width="${sw}" height="${y1a-W}"/>`;
   s+=`<rect class="strp" x="${W}" y="${W-sw}" width="${g.arr-W}" height="${sw}"/><rect class="strp" x="${W}" y="0" width="${g.arr-W}" height="${sw}"/>`;
-  s+=`<path class="guardp" fill="none" d="M${W+3},${y1a} V${W+3} H${g.arr+S.LP+3} V0"/>`;
-  if(g.free1) s+=`<path class="guardp" fill="none" d="M-3,${y1a} V0"/>`;
+  s+=`<path class="guardp" fill="none" d="M${W+3},${y1a} V${W+3} H${g.arr+S.LP}"/>`;
+  s+=`<path class="guardp" fill="none" d="M-3,${y1a} V0"/>`;
   posts(g).forEach(p=>{s+=`<rect x="${p.px-2}" y="${p.py-2}" width="4" height="4" fill="var(--gold)"/>`; if(g.free1&&p.f===1) s+=`<rect x="-5" y="${p.py-2}" width="4" height="4" fill="var(--gold)"/>`;});
   s+=`<text class="lbl g" transform="translate(${W+12},${(W+y1a)/2+30}) rotate(-90)">guarda-corpo</text>`;
   const wl=W/2, ys=g.legB+(S.fan?30:12);
   s+=`<path class="walk" d="M${wl},${ys} L${wl},${W/2} L${g.arr-6},${W/2}" marker-end="url(#ah)"/><circle cx="${wl}" cy="${ys}" r="3" class="walkh"/>`;
   s+=`<text class="lbl b" x="${wl+6}" y="${ys+14}">SOBE</text>`;
-  const dy=-wt-22; s+=`<path class="dim" d="M${-G},${dy} H${g.arr+S.LP} M${-G},${dy-5} V${dy+5} M${g.arr},${dy-5} V${dy+5} M${g.arr+S.LP},${dy-5} V${dy+5}"/><text class="lbl" x="${(g.arr-G)/2}" y="${dy-4}" text-anchor="middle">${fmt(g.arr,0)} até a plataforma</text>`;
-  const dx=-G-wt-22; s+=`<path class="dim" d="M${dx},0 V${g.legB} M${dx-5},0 H${dx+5} M${dx-5},${g.legB} H${dx+5}"/><text class="lbl" transform="translate(${dx-5},${g.legB/2}) rotate(-90)" text-anchor="middle">${fmt(g.legB,0)}</text>`;
+  const dy=-wt-22; s+=`<path class="dim" d="M0,${dy} H${g.arr+S.LP} M0,${dy-5} V${dy+5} M${W},${dy-5} V${dy+5} M${g.arr},${dy-5} V${dy+5} M${g.arr+S.LP},${dy-5} V${dy+5}"/><text class="lbl" x="${W/2}" y="${dy-4}" text-anchor="middle">${W}</text><text class="lbl b" x="${(W+g.arr)/2}" y="${dy-4}" text-anchor="middle">${fmt(g.arr-W,0)} lance</text><text class="lbl" x="${g.arr+S.LP/2}" y="${dy-4}" text-anchor="middle">${S.LP}</text>`;
+  const dx=-22; s+=`<path class="dim" d="M${dx},0 V${g.legB} M${dx-5},0 H${dx+5} M${dx-5},${g.legB} H${dx+5}"/><text class="lbl" transform="translate(${dx-5},${g.legB/2}) rotate(-90)" text-anchor="middle">${fmt(g.legB,0)}</text>`;
   s+=`<text class="lbl s" x="${W+g.n2*S.P/2}" y="${W+16}" text-anchor="middle">${g.n2} × ${S.P}</text>`;
   s+=`<text class="lbl s" x="${W/2}" y="${-4}" text-anchor="middle">${W}</text>`;
   if(S.fan) s+=`<text class="lbl s" x="${W+50}" y="${g.legB-6}">bloco de concreto</text>`;
@@ -503,7 +504,7 @@ function section(g){
     s+=`<text class="lbl b" x="${xl+turnRun/2}" y="${-g.zLand+44}" text-anchor="middle">patamar +${fmt(g.zLand)}</text>`;}
   s+=`<polygon class="str" points="${PP(g.L1.map(([a,b])=>[X1(a),-b]))}"/>`;
   s+=`<polygon class="str" points="${PP(g.L2.map(([a,b])=>[X2(a),-b]))}"/>`;
-  s+=`<rect class="str" x="${xEnd}" y="${-(S.H-S.T)}" width="${post}" height="25"/><rect class="gran" x="${xEnd}" y="${-S.H}" width="${post}" height="${S.T}"/><rect class="col" x="${xEnd+post-10}" y="${-(S.H-S.T-25)}" width="10" height="${S.H-S.T-25}"/><text class="lbl b" x="${xEnd+post/2}" y="${-S.H+44}" text-anchor="middle">plataforma</text>`;
+  s+=`<rect class="str" x="${xEnd}" y="${-(S.H-S.T)}" width="${post}" height="25"/><rect class="gran" x="${xEnd}" y="${-S.H}" width="${post}" height="${S.T}"/><rect class="col" x="${xEnd+post-10}" y="${-(S.H-S.T-25)}" width="10" height="${S.H-S.T-25}"/><text class="lbl b" x="${xEnd+post/2}" y="${-S.H+44}" text-anchor="middle">laje</text>`;
   if(S.BP>S.G){const hb=S.HB; s+=`<rect x="${-m/2}" y="${-hb-12}" width="${X1(g.sE1)+m/2}" height="12" fill="var(--bad)" fill-opacity=".25" stroke="var(--bad)"/><text class="lbl b" style="fill:var(--bad)" x="${-m/2+4}" y="${-hb-16}">beiral +${hb}</text>`;}
   posts(g).forEach(p=>{const X=p.f===1?X1(p.s):X2(p.s); const z0=(p.f===1?g.top1(p.s):g.top2(p.s))-14; s+=`<line x1="${X}" y1="${-z0}" x2="${X}" y2="${-(p.z+108)}" class="guardp"/>`;});
   const rl=[[X1(sa),-(g.nos1(sa)+110)],[X1(g.sE1),-(g.nos1(g.sE1)+110)],[X2(0),-(g.nos2(0)+110)],[X2(g.sE2),-(S.H+110)],[xEnd+post,-(S.H+110)]];
@@ -573,12 +574,12 @@ function stepsTable(g){
   let r='<tr><th>Degrau</th><th>Lance</th><th style="text-align:right">Cota do piso</th><th style="text-align:right">Espelho</th><th>Posição da quina</th><th>Execução</th></tr>', last=0;
   g.steps.forEach(st=>{
     const fl=st.fl===1?'1':st.fl===2?'2':(st.land?'patamar':'leque');
-    const posTxt=st.fl===1?fmt(st.pos,1)+' cm da parede de pedra':st.fl===2?fmt(st.pos,1)+' cm da parede azulejada':st.land?'quadro '+S.W+' × '+S.W+' no canto':'—';
-    const ex=st.tag==='fan'?'bloco de concreto em leque':st.land?'chapa + 3 nervuras + granito':st.tag==='wind'?'chapa em cunha + granito':'chapa dobrada + granito';
+    const posTxt=st.fl===1?fmt(st.pos,1)+' cm do muro de divisa':st.fl===2?fmt(g.arr+S.LP-st.pos,1)+' cm da parede azulejada':st.land?'quadro '+S.W+' × '+S.W+' no canto':'—';
+    const ex=st.tag==='fan'?'bloco de concreto':st.land?'chapa + 3 nervuras + granito':st.tag==='wind'?'leque: chapa em cunha + nervuras + granito':'chapa dobrada + granito';
     r+=`<tr class="${st.land?'hl':''}"><td class="c">${st.land?'P':st.k}</td><td>${fl}</td><td class="q">${fmt(st.z,1)}</td><td class="q">${fmt(st.z-last,1)}</td><td>${posTxt}</td><td>${ex}</td></tr>`;
     last=st.z;
   });
-  r+=`<tr class="hl"><td class="c">↑</td><td>chegada</td><td class="q">${fmt(S.H,1)}</td><td class="q">${fmt(S.H-last,1)}</td><td>plataforma a ${fmt(g.arr,1)} cm da parede azulejada</td><td>plataforma metálica</td></tr>`;
+  r+=`<tr class="hl"><td class="c">↑</td><td>chegada</td><td class="q">${fmt(S.H,1)}</td><td class="q">${fmt(S.H-last,1)}</td><td>borda da laje a ${fmt(S.LP,1)} cm da parede azulejada</td><td>laje metálica</td></tr>`;
   $('steps').innerHTML=r;
 }
 
@@ -590,10 +591,10 @@ function checks(g){
   L.push([b>=63&&b<=64?'ok':b>=60&&b<=65?'warn':'bad','Blondel 2e + p = '+fmt(b),b>=63&&b<=64?'Na faixa ideal.':b>=60&&b<=65?'Aceitável (60 a 65). Com pisada de 25 o passo fica um pouco curto, o normal em escada de casa.':'Fora da faixa de conforto.']);
   L.push([S.W>=80?'ok':'bad','Largura '+S.W+' cm',S.W>=80?`Livre entre chapas: ${fmt(S.W-1.3,1)} cm.`:'Abaixo de 80 cm.']);
   L.push(['ok','Guarda-corpo 1,10 m','Altura e vão de no máximo 11 cm (NBR 14718), com montante de barra chata dimensionado.']);
-  if(S.type!=='land'){const w=(Math.PI/2*55)/3; L.push(['warn','Leque no canto',`Pisada de ${fmt(w)} cm a 55 cm do pilar e quase zero junto dele. Com pé molhado, o patamar é mais seguro.`]);}
-  L.push(['warn','Ocupa '+fmt(g.legB,0)+' cm na parede azulejada','Conferir a distância até a borda da piscina.']);
+  if(S.type!=='land'){const w=(Math.PI/2*55)/3; L.push(['warn','Leque de 3 degraus',`Na linha de piso (55 cm do pilar) a pisada tem ${fmt(w)} cm e é boa. Junto do pilar ela estreita, então vale granito antiderrapante e corrimão contínuo por fora do leque.`]);}
+  L.push(['warn','Avança '+fmt(g.legB,0)+' cm a partir do muro','Lance inicial de '+g.n1+' degraus. Conferir a distância até a borda da piscina.']);
   $('checks').innerHTML=L.map(([c,t,d])=>`<div class="chk"><span class="pill ${c}">${c==='ok'?'ok':c==='warn'?'atenção':'revisar'}</span><b>${t}</b><span class="d">${d}</span></div>`).join('');
-  $('needB').textContent=fmt(g.legB/100,2)+' m'; $('needA').textContent=fmt((g.arr+S.G)/100,2)+' m';
+  $('needB').textContent=fmt(g.legB/100,2)+' m'; $('needA').textContent=fmt((g.arr+S.LP)/100,2)+' m';
 }
 
 function material(g){
@@ -621,7 +622,8 @@ function material(g){
     ['Pisada em granito '+fmt(S.W-2.3,0)+' × '+S.P,(metal+wind)+' pç','Antiderrapante (levigado ou flameado)'],
     ['Espelho em chapa pintada',(S.R-(S.fan?2:0))+' pç',fmt(S.W-2.3,0)+' × '+fmt(g.h-2,1)+' cm'],
     S.type==='land'?['Patamar em granito',fmt(S.W-2.3,0)+' × '+fmt(S.W-2.3,0),'Uma peça']:null,
-    ['Plataforma de chegada em granito',fmt(S.LP,0)+' × '+fmt(S.W-2.3,0),'Sobre chapa e nervuras'],
+    ['Laje de chegada em granito',fmt(S.LP,0)+' × '+fmt(S.W-2.3,0),'Sobre chapa e nervuras'],
+    wind?['Degrau em leque em granito',wind+' pç','Cortado em cunha, sob medida']:null,
     S.fan?['Bloco de partida em concreto','≈ '+fmt(((S.W+30)*(2*S.P+18)*g.h*1.5)/1e6,2)+' m³','Degraus 1 e 2 em leque, revestidos']:null,
     ['Fita LED sob a quina (opcional)',fmt((metal+wind)*S.W/100,1)+' m','Perfil de alumínio, 12 V, IP67'],
     ['Galvanização ou epóxi + PU',fmt(kg,0)+' kg','Área de piscina'],
@@ -770,7 +772,7 @@ function build3d(g){
   const m2=yc=>new THREE.Matrix4().set(1,0,0,W, 0,1,0,0, 0,0,1,yc, 0,0,0,1);
   plate(g.L1,m1(W-TH*2)); plate(g.L1,m1(0)); plate(g.L2,m2(W-TH*2)); plate(g.L2,m2(0));
   const zb=g.zLand-T;
-  if(S.type==='land'){box(W,25,1.3,W/2,zb-12.5,W-0.65,mSteel); box(1.3,25,W,W-0.65,zb-12.5,W/2,mSteel); if(g.free1) box(1.3,25,W,0.65,zb-12.5,W/2,mSteel);}
+  box(W,25,1.3,W/2,zb-12.5,W-0.65,mSteel); box(1.3,25,W,W-0.65,zb-12.5,W/2,mSteel); box(1.3,25,W,0.65,zb-12.5,W/2,mSteel);
   box(10,zb,10,W-5,zb/2,W-5,mSteel); if(g.free1) box(10,zb,10,5,zb/2,W-5,mSteel);
   // plataforma metálica de chegada
   const LP=S.LP, xa=g.arr;
@@ -784,13 +786,13 @@ function build3d(g){
   ps.forEach(p=>{ if(p.f===1){sides1.forEach(x=>post(x+(x>0?.6:-.6),g.legB-p.s,g.top1(p.s)-16,g.nos1(p.s)+107,false));}
     else post(W+p.s,W+o+.6,g.top2(p.s)-16,g.nos2(p.s)+107,true);});
   // montantes da plataforma e do lado livre do patamar
-  [[xa+LP/2,W+o+.6,true],[xa+LP+o+.6,W/2,false],[xa+LP+o+.6,5,false]].forEach(([x,z,ax])=>post(x,z,S.H-T-20,S.H+107,ax));
+  [[xa+LP/2,W+o+.6,true],[xa+LP-4,W+o+.6,true]].forEach(([x,z,ax])=>post(x,z,S.H-T-20,S.H+107,ax));
   if(g.free1) post(-o-.6,W/2,zb-20,g.zLand+107,false);
   const rail=(a,b)=>cyl(a,b,2.54,mInox);
   sides1.forEach(x=>{const dx=x>0?1:-1; rail(V3(x+dx,g.nos1(sa)+110,g.legB-sa),V3(x+dx,g.nos1(g.sE1)+110,W));});
   rail(V3(W+o+1,g.nos1(g.sE1)+110,W),V3(W+o+1,g.nos2(0)+110,W+o+1)); rail(V3(W,g.nos2(0)+110,W+o+1),V3(xa,S.H+110,W+o+1));
-  rail(V3(xa,S.H+110,W+o+1),V3(xa+LP+o+1,S.H+110,W+o+1)); rail(V3(xa+LP+o+1,S.H+110,W+o+1),V3(xa+LP+o+1,S.H+110,0));
-  if(g.free1){rail(V3(-o-1,g.nos1(g.sE1)+110,W),V3(-o-1,g.zLand+110,W)); rail(V3(-o-1,g.zLand+110,W),V3(-o-1,g.zLand+110,0));}
+  rail(V3(xa,S.H+110,W+o+1),V3(xa+LP,S.H+110,W+o+1));
+  const zw=S.type==='land'?g.zLand:g.zLand+g.h; rail(V3(-o-1,g.nos1(g.sE1)+110,W),V3(-o-1,g.zLand+110,W)); rail(V3(-o-1,g.zLand+110,W),V3(-o-1,zw+110,0));
   const pane=(pts,mat4)=>{const sh=new THREE.Shape();pts.forEach((p,i)=>i?sh.lineTo(p[0],p[1]):sh.moveTo(p[0],p[1]));
     const geo=new THREE.ExtrudeGeometry(sh,{depth:1.6,bevelEnabled:false}); geo.applyMatrix4(mat4); const m=new THREE.Mesh(geo,mGlass); m.renderOrder=2; tgt.add(m);
     tgt.add(new THREE.LineSegments(new THREE.EdgesGeometry(geo,30),new THREE.LineBasicMaterial({color:0x5fb3bd,transparent:true,opacity:.95})));};
@@ -803,14 +805,14 @@ function build3d(g){
     panes(sa,g.sE1,g.nos1,g.top1,m1(W+o+2),n1); if(g.free1) panes(sa,g.sE1,g.nos1,g.top1,m1(-o-3.6),n1);
     panes(0,g.sE2,g.nos2,g.top2,m2(W+o+2),Math.max(1,Math.ceil(g.sE2/ph)));
     const flat=(x0,x1,y0,y1,mk)=>pane([[x0,y0],[x1,y0],[x1,y1],[x0,y1]],mk);
-    flat(xa+1,xa+LP-1,S.H-T-20,S.H+105,mz(W+o+2)); flat(-W+1,-1,S.H-T-20,S.H+105,mx(xa+LP+o+2));
+    flat(xa+1,xa+LP-1,S.H-T-20,S.H+105,mz(W+o+2));
     if(g.free1) flat(-W+1,-1,zb-20,g.zLand+105,mx(-o-3.6));
   } else {
     const nR=9, gap=g.top1(0)-g.nos1(0)-16;
     for(let i=1;i<=nR;i++){const off=gap+(110-gap)*i/(nR+1), offF=-T-20+(110+T+20)*i/(nR+1);
       sides1.forEach(x=>{const dx=x>0?2:-2; cyl(V3(x+dx,g.nos1(sa)+off,g.legB-sa),V3(x+dx,g.nos1(g.sE1)+off,W),.64,mInox);});
       cyl(V3(W,g.nos2(0)+off,W+o+2),V3(g.arr,g.nos2(g.sE2)+off,W+o+2),.64,mInox);
-      cyl(V3(xa,S.H+offF,W+o+2),V3(xa+LP,S.H+offF,W+o+2),.64,mInox); cyl(V3(xa+LP+o+2,S.H+offF,W),V3(xa+LP+o+2,S.H+offF,0),.64,mInox);
+      cyl(V3(xa,S.H+offF,W+o+2),V3(xa+LP,S.H+offF,W+o+2),.64,mInox);
       if(g.free1) cyl(V3(-o-2,g.zLand-T-20+(130+T)*i/(nR+1),W),V3(-o-2,g.zLand-T-20+(130+T)*i/(nR+1),0),.64,mInox);}
   }
   // corrimão no muro de pedra (lance 2 e patamar)
@@ -822,25 +824,25 @@ function build3d(g){
 
   // ---------- entorno, em coordenadas do terreno (parede da casa em x=0) ----------
   tgt=grp;
-  const L=Math.max(g.legB+260,520), A=Math.max(G+g.arr+LP+260,600), CL=230, HW=S.H+260;
+  const L=Math.max(g.legB+300,560), XW=G+g.arr+LP, A=XW, CL=230, HW=S.H+260;
   const wall=(x0,x1,z0,z1,y0,y1,mat)=>{const b=new THREE.Mesh(new THREE.BoxGeometry(x1-x0,y1-y0,z1-z0),mat); b.position.set((x0+x1)/2,(y0+y1)/2,(z0+z1)/2); return add(b,false,true);};
   // muro de pedra (z<0), topo em +H: pedra até 230, reboco acima
-  wall(-12,A,-12,0,0,CL,MS({map:tex('stone',A/60,CL/60),roughness:.9}));
-  wall(-12,A,-12,0,CL,S.H,MS({map:tex('paint',A/80,(S.H-CL)/80),roughness:.95}));
+  wall(-260,XW+12,-12,0,0,CL,MS({map:tex('stone',(XW+272)/60,CL/60),roughness:.9}));
+  wall(-260,XW+12,-12,0,CL,S.H,MS({map:tex('paint',(XW+272)/80,(S.H-CL)/80),roughness:.95}));
   // terreno de cima, atrás do muro
-  const up=new THREE.Mesh(new THREE.PlaneGeometry(A+12,420),MS({color:0x9aa58a,roughness:1})); up.rotation.x=-Math.PI/2; up.position.set(A/2-6,S.H+.5,-222); add(up,false,true);
+  const up=new THREE.Mesh(new THREE.PlaneGeometry(XW+272,420),MS({color:0x9aa58a,roughness:1})); up.rotation.x=-Math.PI/2; up.position.set((XW-260)/2+6,S.H+.5,-222); add(up,false,true);
   // parede da casa (x<0): azulejo até 230, reboco até o alto, janela
-  wall(-12,0,-12,L,0,CL,MS({map:tex('tile',L/90,CL/90),roughness:.35,envMapIntensity:.5}));
-  wall(-12,0,-12,L,CL,HW,MS({map:tex('paint',L/80,(HW-CL)/80),roughness:.95}));
-  const win=new THREE.Mesh(new THREE.BoxGeometry(2,80,120),MS({color:0x2a3646,roughness:.1,metalness:.3,envMapIntensity:1.5})); win.position.set(0.5,270,Math.min(L-150,g.legB+40)); add(win,false,false);
+  wall(XW,XW+12,-12,L,0,CL,MS({map:tex('tile',L/90,CL/90),roughness:.35,envMapIntensity:.5}));
+  wall(XW,XW+12,-12,L,CL,HW,MS({map:tex('paint',L/80,(HW-CL)/80),roughness:.95}));
+  const win=new THREE.Mesh(new THREE.BoxGeometry(2,80,120),MS({color:0x2a3646,roughness:.1,metalness:.3,envMapIntensity:1.5})); win.position.set(XW-0.5,S.H+60,Math.min(L-150,W+160)); add(win,false,false);
   // beiral de concreto saindo da casa
   if(false){const b=new THREE.Mesh(new THREE.BoxGeometry(S.BP,12,L),mBeiral); b.position.set(S.BP/2,S.HB+6,L/2-12); add(b,true,true);
     const pf=new THREE.Mesh(new THREE.BoxGeometry(4,30,L),mBeiral); pf.position.set(S.BP-2,S.HB+15,L/2-12); add(pf,true,true);}
   // piso
-  const fl=new THREE.Mesh(new THREE.PlaneGeometry(A+600,L+600),MS({map:tex('floor',(A+600)/90,(L+600)/90),roughness:.7}));
-  fl.rotation.x=-Math.PI/2; fl.position.set((A+600)/2-20,0,(L+600)/2-20); add(fl,false,true);
+  const fl=new THREE.Mesh(new THREE.PlaneGeometry(XW+600,L+600),MS({map:tex('floor',(XW+600)/90,(L+600)/90),roughness:.7}));
+  fl.rotation.x=-Math.PI/2; fl.position.set(XW/2-60,0,(L+600)/2-20); add(fl,false,true);
   // piscina redonda, mais afastada da escada
-  const pcx=G+W+330, pcz=g.legB+150, pr=115;
+  const pcx=G+W+90, pcz=g.legB+260, pr=115;
   const pool=new THREE.Mesh(new THREE.CircleGeometry(pr,64),mWater); pool.rotation.x=-Math.PI/2; pool.position.set(pcx,1.2,pcz); add(pool,false,true);
   const cop=new THREE.Mesh(new THREE.RingGeometry(pr,pr+18,64),mCoping); cop.rotation.x=-Math.PI/2; cop.position.set(pcx,1.6,pcz); add(cop,false,true);
   if(N){
@@ -849,10 +851,11 @@ function build3d(g){
     pl(0xffcf8a,1.6,260,G+W/2,g.zLand+20,W/2); pl(0x3fc4ff,2.4,420,pcx,30,pcz); pl(0xffe2b0,1.4,420,G+xa+LP/2,S.H+160,W/2);
   }
   const cx=G+W/2+60;
-  CAMS={geral:[[G+g.arr+620,360,g.legB+560],[cx,150,g.legB/2+20]],
-        pe:[[G+W+330,158,g.legB+260],[G+W/2,130,g.legB/2]],
-        lado:[[G+W+620,190,g.legB/2+90],[G+W,150,g.legB/2+20]],
-        cima:[[G+xa+LP+120,S.H+190,W+220],[G+W/2,120,g.legB*0.6]]};
+  const mid=(XW)/2;
+  CAMS={geral:[[mid-300,470,g.legB+760],[mid,170,60]],
+        pe:[[W/2+40,160,g.legB+300],[mid*0.7,150,40]],
+        lado:[[mid+40,200,g.legB+560],[mid,160,30]],
+        cima:[[XW-40,S.H+180,W+180],[W/2,110,g.legB*0.5]]};
 }
 
 let curCam='geral', first=true;
